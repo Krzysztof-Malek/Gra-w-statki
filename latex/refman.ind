@@ -1,0 +1,70 @@
+\begin{theindex}
+
+  \item {change\_one}
+    \subitem {struct.h}, \hyperpage{13}
+  \item {check\_state}
+    \subitem {functions.c}, \hyperpage{8}
+    \subitem {struct.h}, \hyperpage{13}
+  \item {choosing\_place}
+    \subitem {functions.c}, \hyperpage{8}
+    \subitem {struct.h}, \hyperpage{13}
+  \item {chosing\_the\_rest\_of\_the\_ship}
+    \subitem {functions.c}, \hyperpage{9}
+    \subitem {struct.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {delete\_memory}
+    \subitem {functions.c}, \hyperpage{9}
+    \subitem {struct.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {functions.c}, \hyperpage{7}
+    \subitem {check\_state}, \hyperpage{8}
+    \subitem {choosing\_place}, \hyperpage{8}
+    \subitem {chosing\_the\_rest\_of\_the\_ship}, \hyperpage{9}
+    \subitem {delete\_memory}, \hyperpage{9}
+    \subitem {make\_board}, \hyperpage{10}
+    \subitem {print\_board}, \hyperpage{10}
+    \subitem {turn}, \hyperpage{10}
+
+  \indexspace
+
+  \item {main.c}, \hyperpage{11}
+  \item {make\_board}
+    \subitem {functions.c}, \hyperpage{10}
+    \subitem {struct.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {print\_board}
+    \subitem {functions.c}, \hyperpage{10}
+    \subitem {struct.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {row}, \hyperpage{5}
+  \item {row\_type}
+    \subitem {struct.h}, \hyperpage{12}
+
+  \indexspace
+
+  \item {struct.h}, \hyperpage{12}
+    \subitem {change\_one}, \hyperpage{13}
+    \subitem {check\_state}, \hyperpage{13}
+    \subitem {choosing\_place}, \hyperpage{13}
+    \subitem {chosing\_the\_rest\_of\_the\_ship}, \hyperpage{14}
+    \subitem {delete\_memory}, \hyperpage{14}
+    \subitem {make\_board}, \hyperpage{15}
+    \subitem {print\_board}, \hyperpage{15}
+    \subitem {row\_type}, \hyperpage{12}
+    \subitem {turn}, \hyperpage{16}
+
+  \indexspace
+
+  \item {turn}
+    \subitem {functions.c}, \hyperpage{10}
+    \subitem {struct.h}, \hyperpage{16}
+
+\end{theindex}

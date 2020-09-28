@@ -1,0 +1,4 @@
+C:\Users\krzys\source\repos\Gra w statki\Debug\Gra w statki.exe
+C:\Users\krzys\source\repos\Gra w statki\Debug\Gra w statki.pdb
+C:\Users\krzys\source\repos\Gra w statki — kopia\Debug\Gra w statki.exe
+C:\Users\krzys\source\repos\Gra w statki — kopia\Debug\Gra w statki.pdb

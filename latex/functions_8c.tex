@@ -1,0 +1,176 @@
+\hypertarget{functions_8c}{}\doxysection{Dokumentacja pliku functions.\+c}
+\label{functions_8c}\index{functions.c@{functions.c}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$conio.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+Wykres zależności załączania dla functions.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8c__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{functions_8c__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{functions_8c_a3cd0c4cdf6169d351c9bb92e52816a63}{make\+\_\+board}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head)
+\item 
+void \mbox{\hyperlink{functions_8c_a5a08361ad3d54c7d977fe7e639178b70}{print\+\_\+board}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head)
+\item 
+int \mbox{\hyperlink{functions_8c_ac621dcaa7f9fd0a6404b5ff409453894}{choosing\+\_\+place}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head, \mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$copy, int size)
+\item 
+\mbox{\Hypertarget{functions_8c_ab9166531d478f1767e57e1dd0d31dfd4}\label{functions_8c_ab9166531d478f1767e57e1dd0d31dfd4}} 
+void {\bfseries change\+\_\+one} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head, int \mbox{\hyperlink{structrow}{row}}, int column, int value)
+\item 
+void \mbox{\hyperlink{functions_8c_ae9cddbd98e5fc796556f7634e807227b}{chosing\+\_\+the\+\_\+rest\+\_\+of\+\_\+the\+\_\+ship}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head, int \mbox{\hyperlink{structrow}{row}}, int column, int size, int f, int s, int t, int fo)
+\item 
+int \mbox{\hyperlink{functions_8c_a84862e3b8397b5951f9b863b1a6fde3c}{check\+\_\+state}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$head, int \mbox{\hyperlink{structrow}{row}}, int column, int state)
+\item 
+void \mbox{\hyperlink{functions_8c_a50e7e1a7f8a77d56671ad62e111d6603}{turn}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$P1\+\_\+board, \mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$E1\+\_\+board, \mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$P2\+\_\+board, int $\ast$P)
+\item 
+void \mbox{\hyperlink{functions_8c_abe337a0cf1e1749f62248085bce67396}{delete\+\_\+memory}} (\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$current)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{functions_8c_a84862e3b8397b5951f9b863b1a6fde3c}\label{functions_8c_a84862e3b8397b5951f9b863b1a6fde3c}} 
+\index{functions.c@{functions.c}!check\_state@{check\_state}}
+\index{check\_state@{check\_state}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{check\_state()}{check\_state()}}
+{\footnotesize\ttfamily int check\+\_\+state (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{head,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{int}]{state }\end{DoxyParamCaption})}
+
+Funkcja sprawdza status pola na planszy 
+\begin{DoxyParams}{Parametry}
+{\em head} & głowa wybranej planszy \\
+\hline
+{\em row} & wiersz \\
+\hline
+{\em column} & kolumna \\
+\hline
+{\em state} & status w postaci liczby \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_ac621dcaa7f9fd0a6404b5ff409453894}\label{functions_8c_ac621dcaa7f9fd0a6404b5ff409453894}} 
+\index{functions.c@{functions.c}!choosing\_place@{choosing\_place}}
+\index{choosing\_place@{choosing\_place}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{choosing\_place()}{choosing\_place()}}
+{\footnotesize\ttfamily int choosing\+\_\+place (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{head,  }\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{copy,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+Funkcja pyta i weryfikuje miejsce wybrane przez gracza 
+\begin{DoxyParams}{Parametry}
+{\em head} & głowa wybranej planszy \\
+\hline
+{\em copy} & kopia planszy dla gracza pokazująca gdzie już strzelał \\
+\hline
+{\em size} & wielkość statku \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_ae9cddbd98e5fc796556f7634e807227b}\label{functions_8c_ae9cddbd98e5fc796556f7634e807227b}} 
+\index{functions.c@{functions.c}!chosing\_the\_rest\_of\_the\_ship@{chosing\_the\_rest\_of\_the\_ship}}
+\index{chosing\_the\_rest\_of\_the\_ship@{chosing\_the\_rest\_of\_the\_ship}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{chosing\_the\_rest\_of\_the\_ship()}{chosing\_the\_rest\_of\_the\_ship()}}
+{\footnotesize\ttfamily void chosing\+\_\+the\+\_\+rest\+\_\+of\+\_\+the\+\_\+ship (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{head,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{int}]{size,  }\item[{int}]{f,  }\item[{int}]{s,  }\item[{int}]{t,  }\item[{int}]{fo }\end{DoxyParamCaption})}
+
+Funkcja sprawdza w którą stronę można położyć resztę statku 
+\begin{DoxyParams}{Parametry}
+{\em head} & głowa wybranej planszy \\
+\hline
+{\em row} & wiersz \\
+\hline
+{\em column} & kolumna \\
+\hline
+{\em size} & wielkość statku \\
+\hline
+{\em f} & ilość wolnego miejsa w lewą stronę \\
+\hline
+{\em f} & ilość wolnego miejsa w dół \\
+\hline
+{\em f} & ilość wolnego miejsa w prawą stronę \\
+\hline
+{\em f} & ilość wolnego miejsa w górę \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_abe337a0cf1e1749f62248085bce67396}\label{functions_8c_abe337a0cf1e1749f62248085bce67396}} 
+\index{functions.c@{functions.c}!delete\_memory@{delete\_memory}}
+\index{delete\_memory@{delete\_memory}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{delete\_memory()}{delete\_memory()}}
+{\footnotesize\ttfamily void delete\+\_\+memory (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{current }\end{DoxyParamCaption})}
+
+Funkcja usuwająca wybraną plansze -\/ zwalnianie pamięci 
+\begin{DoxyParams}{Parametry}
+{\em current} & wybrana plansza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_a3cd0c4cdf6169d351c9bb92e52816a63}\label{functions_8c_a3cd0c4cdf6169d351c9bb92e52816a63}} 
+\index{functions.c@{functions.c}!make\_board@{make\_board}}
+\index{make\_board@{make\_board}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{make\_board()}{make\_board()}}
+{\footnotesize\ttfamily void make\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{head }\end{DoxyParamCaption})}
+
+Funkcja alokuje pamięć pod plansze 
+\begin{DoxyParams}{Parametry}
+{\em head} & głowa wybranej planszy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_a5a08361ad3d54c7d977fe7e639178b70}\label{functions_8c_a5a08361ad3d54c7d977fe7e639178b70}} 
+\index{functions.c@{functions.c}!print\_board@{print\_board}}
+\index{print\_board@{print\_board}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{print\_board()}{print\_board()}}
+{\footnotesize\ttfamily void print\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{head }\end{DoxyParamCaption})}
+
+Funkcja wyświetla planszę na ekranie 
+\begin{DoxyParams}{Parametry}
+{\em head} & głowa wybranej planszy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8c_a50e7e1a7f8a77d56671ad62e111d6603}\label{functions_8c_a50e7e1a7f8a77d56671ad62e111d6603}} 
+\index{functions.c@{functions.c}!turn@{turn}}
+\index{turn@{turn}!functions.c@{functions.c}}
+\doxysubsubsection{\texorpdfstring{turn()}{turn()}}
+{\footnotesize\ttfamily void turn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{P1\+\_\+board,  }\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{E1\+\_\+board,  }\item[{\mbox{\hyperlink{struct_8h_aae53f84965e43fee390dd5bc6d998aa0}{row\+\_\+type}} $\ast$}]{P2\+\_\+board,  }\item[{int $\ast$}]{P }\end{DoxyParamCaption})}
+
+Funkcja wywołująca turę gracza 
+\begin{DoxyParams}{Parametry}
+{\em P1\+\_\+board} & głowa planszy gracza \\
+\hline
+{\em E1\+\_\+board} & głowa planszy przeciwnika \\
+\hline
+{\em P2\+\_\+board} & głowa planszy drugiego gracza \\
+\hline
+{\em P} & liczba trafień gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+void 
+\end{DoxyReturn}

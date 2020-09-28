@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gra w statki: Plik źródłowy struct.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Gra w statki
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">struct.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="struct_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structrow.html">    5</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structrow.html">row</a> {</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="structrow.html#a9eab91667db4d35c7231dcddf7b89a76">    6</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structrow.html#a9eab91667db4d35c7231dcddf7b89a76">data</a>;           </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="structrow.html#a6e734d0c8c91672a44912f5017c1c3c7">    7</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structrow.html">row</a>* <a class="code" href="structrow.html#a6e734d0c8c91672a44912f5017c1c3c7">next</a>;   </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structrow.html#adbd4bf9852c6e448e9e378b70864c20f">    8</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structrow.html">row</a>* <a class="code" href="structrow.html#adbd4bf9852c6e448e9e378b70864c20f">down</a>;   </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;} <a class="code" href="struct_8h.html#aae53f84965e43fee390dd5bc6d998aa0">row_type</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#a3cd0c4cdf6169d351c9bb92e52816a63">make_board</a>(<a class="code" href="structrow.html">row_type</a>* head);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#a5a08361ad3d54c7d977fe7e639178b70">print_board</a>(<a class="code" href="structrow.html">row_type</a>* head);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="struct_8h.html#ac621dcaa7f9fd0a6404b5ff409453894">choosing_place</a>(<a class="code" href="structrow.html">row_type</a>* head, <a class="code" href="structrow.html">row_type</a>* copy, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#a8317830ba7612b54002405cf0a08ea28">change_one</a>(<a class="code" href="structrow.html">row_type</a>* head, <span class="keywordtype">int</span> <a class="code" href="structrow.html">row</a>, <span class="keywordtype">int</span> column);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#ae9cddbd98e5fc796556f7634e807227b">chosing_the_rest_of_the_ship</a>(<a class="code" href="structrow.html">row_type</a>* head, <span class="keywordtype">int</span> <a class="code" href="structrow.html">row</a>, <span class="keywordtype">int</span> column, <span class="keywordtype">int</span> size, <span class="keywordtype">int</span> f, <span class="keywordtype">int</span> s, <span class="keywordtype">int</span> t, <span class="keywordtype">int</span> fo);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">int</span> <a class="code" href="struct_8h.html#a84862e3b8397b5951f9b863b1a6fde3c">check_state</a>(<a class="code" href="structrow.html">row_type</a>* head, <span class="keywordtype">int</span> <a class="code" href="structrow.html">row</a>, <span class="keywordtype">int</span> column, <span class="keywordtype">int</span> state);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#a50e7e1a7f8a77d56671ad62e111d6603">turn</a>(<a class="code" href="structrow.html">row_type</a>* P1_board, <a class="code" href="structrow.html">row_type</a>* E1_board, <a class="code" href="structrow.html">row_type</a>* P2_board, <span class="keywordtype">int</span>* P);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_8h.html#abe337a0cf1e1749f62248085bce67396">delete_memory</a>(<a class="code" href="structrow.html">row_type</a>* current);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructrow_html"><div class="ttname"><a href="structrow.html">row</a></div><div class="ttdef"><b>Definition:</b> struct.h:5</div></div>
+<div class="ttc" id="astructrow_html_a6e734d0c8c91672a44912f5017c1c3c7"><div class="ttname"><a href="structrow.html#a6e734d0c8c91672a44912f5017c1c3c7">row::next</a></div><div class="ttdeci">struct row * next</div><div class="ttdoc">adres kolejnej kolumny</div><div class="ttdef"><b>Definition:</b> struct.h:7</div></div>
+<div class="ttc" id="astruct_8h_html_ac621dcaa7f9fd0a6404b5ff409453894"><div class="ttname"><a href="struct_8h.html#ac621dcaa7f9fd0a6404b5ff409453894">choosing_place</a></div><div class="ttdeci">int choosing_place(row_type *head, row_type *copy, int size)</div><div class="ttdef"><b>Definition:</b> functions.c:78</div></div>
+<div class="ttc" id="astruct_8h_html_a5a08361ad3d54c7d977fe7e639178b70"><div class="ttname"><a href="struct_8h.html#a5a08361ad3d54c7d977fe7e639178b70">print_board</a></div><div class="ttdeci">void print_board(row_type *head)</div><div class="ttdef"><b>Definition:</b> functions.c:42</div></div>
+<div class="ttc" id="astruct_8h_html_abe337a0cf1e1749f62248085bce67396"><div class="ttname"><a href="struct_8h.html#abe337a0cf1e1749f62248085bce67396">delete_memory</a></div><div class="ttdeci">void delete_memory(row_type *current)</div><div class="ttdef"><b>Definition:</b> functions.c:527</div></div>
+<div class="ttc" id="astruct_8h_html_ae9cddbd98e5fc796556f7634e807227b"><div class="ttname"><a href="struct_8h.html#ae9cddbd98e5fc796556f7634e807227b">chosing_the_rest_of_the_ship</a></div><div class="ttdeci">void chosing_the_rest_of_the_ship(row_type *head, int row, int column, int size, int f, int s, int t, int fo)</div><div class="ttdef"><b>Definition:</b> functions.c:229</div></div>
+<div class="ttc" id="astructrow_html_a9eab91667db4d35c7231dcddf7b89a76"><div class="ttname"><a href="structrow.html#a9eab91667db4d35c7231dcddf7b89a76">row::data</a></div><div class="ttdeci">int data</div><div class="ttdoc">stan pola</div><div class="ttdef"><b>Definition:</b> struct.h:6</div></div>
+<div class="ttc" id="astruct_8h_html_a50e7e1a7f8a77d56671ad62e111d6603"><div class="ttname"><a href="struct_8h.html#a50e7e1a7f8a77d56671ad62e111d6603">turn</a></div><div class="ttdeci">void turn(row_type *P1_board, row_type *E1_board, row_type *P2_board, int *P)</div><div class="ttdef"><b>Definition:</b> functions.c:513</div></div>
+<div class="ttc" id="astruct_8h_html_a84862e3b8397b5951f9b863b1a6fde3c"><div class="ttname"><a href="struct_8h.html#a84862e3b8397b5951f9b863b1a6fde3c">check_state</a></div><div class="ttdeci">int check_state(row_type *head, int row, int column, int state)</div><div class="ttdef"><b>Definition:</b> functions.c:496</div></div>
+<div class="ttc" id="astruct_8h_html_aae53f84965e43fee390dd5bc6d998aa0"><div class="ttname"><a href="struct_8h.html#aae53f84965e43fee390dd5bc6d998aa0">row_type</a></div><div class="ttdeci">struct row row_type</div></div>
+<div class="ttc" id="astruct_8h_html_a3cd0c4cdf6169d351c9bb92e52816a63"><div class="ttname"><a href="struct_8h.html#a3cd0c4cdf6169d351c9bb92e52816a63">make_board</a></div><div class="ttdeci">void make_board(row_type *head)</div><div class="ttdef"><b>Definition:</b> functions.c:16</div></div>
+<div class="ttc" id="astruct_8h_html_a8317830ba7612b54002405cf0a08ea28"><div class="ttname"><a href="struct_8h.html#a8317830ba7612b54002405cf0a08ea28">change_one</a></div><div class="ttdeci">void change_one(row_type *head, int row, int column)</div></div>
+<div class="ttc" id="astructrow_html_adbd4bf9852c6e448e9e378b70864c20f"><div class="ttname"><a href="structrow.html#adbd4bf9852c6e448e9e378b70864c20f">row::down</a></div><div class="ttdeci">struct row * down</div><div class="ttdoc">adres kolejnego wiersza</div><div class="ttdef"><b>Definition:</b> struct.h:8</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

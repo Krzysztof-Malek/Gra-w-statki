@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(50,33): warning C4554: „&”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(152,28): warning C4020: "change_one": zbyt wiele parametrów rzeczywistych
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(153,28): warning C4020: "change_one": zbyt wiele parametrów rzeczywistych
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(161,28): warning C4020: "change_one": zbyt wiele parametrów rzeczywistych
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(162,28): warning C4020: "change_one": zbyt wiele parametrów rzeczywistych
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(205,28): warning C4020: "change_one": zbyt wiele parametrów rzeczywistych
+C:\Users\krzys\source\repos\Gra w statki — kopia\functions.c(217,65): warning C4029: zadeklarowana formalna lista parametrów różniąca się od definicji
+  Gra w statki.vcxproj -> C:\Users\krzys\source\repos\Gra w statki — kopia\Debug\Gra w statki.exe

@@ -1,0 +1,33 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks struktur danych}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Struktury danych}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks plików}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista plików}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Dokumentacja struktur danych}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentacja struktury row}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Opis szczegółowy}{5}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Dokumentacja plików}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku functions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Dokumentacja funkcji}{8}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}check\_state()}{8}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}choosing\_place()}{8}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}chosing\_the\_rest\_of\_the\_ship()}{9}{subsubsection.4.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.1.4}delete\_memory()}{9}{subsubsection.4.1.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.1.5}make\_board()}{10}{subsubsection.4.1.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.1.6}print\_board()}{10}{subsubsection.4.1.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.1.7}turn()}{10}{subsubsection.4.1.1.7}%
+\contentsline {section}{\numberline {4.2}Dokumentacja pliku main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Dokumentacja pliku struct.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{12}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Dokumentacja definicji typów}{12}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}row\_type}{12}{subsubsection.4.3.1.1}%
+\contentsline {subsection}{\numberline {4.3.2}Dokumentacja funkcji}{13}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}change\_one()}{13}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}check\_state()}{13}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}choosing\_place()}{14}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}chosing\_the\_rest\_of\_the\_ship()}{14}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}delete\_memory()}{15}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}make\_board()}{15}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}print\_board()}{15}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}turn()}{16}{subsubsection.4.3.2.8}%
+\contentsline {chapter}{Indeks}{17}{section*.12}%
